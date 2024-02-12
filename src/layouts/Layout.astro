@@ -1,0 +1,68 @@
+---
+import '@fontsource-variable/dm-sans';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/icon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Hakan T. Otal</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --accent: 136, 58, 234;
+    --accent-light: 224, 204, 250;
+    --accent-dark: 49, 10, 101;
+    --accent-gradient: linear-gradient(
+      45deg,
+      rgb(var(--accent)),
+      rgb(var(--accent-light)) 30%,
+      white 60%
+    );
+  }
+  html {
+    font-family: "DM Sans Variable", sans-serif;
+    background: #2d2d30;
+    background-size: 224px;
+    color: aliceblue;
+  }
+  body {
+    max-width: 600px;
+    padding: 16px;
+    margin: auto;
+  }
+  img {
+    max-width: 200px;
+    border-radius: 30%;
+  }
+  td {
+    padding: 8px;
+  }
+  a,
+  a:visited {
+    color: skyblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 2px 4px;
+  }
+  a:hover {
+    border-radius: 10px;
+    border: 2px solid skyblue;
+  }
+  div {
+    display: flex;
+  }
+  footer {
+    margin-top: 32px;
+    text-align: center;
+    font-size: small;
+  }
+</style>
