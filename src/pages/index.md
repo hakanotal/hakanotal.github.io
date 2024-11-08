@@ -13,7 +13,7 @@ layout: "../layouts/Layout.astro"
 
 # Hakan Tugrul Otal
 
-**PhD Candidate and Research Assistant**  
+**PhD Student and Research Assistant**  
 University at Albany, SUNY  
 New York, United States  
 Email: hakan.otal@outlook.com  
