@@ -96,7 +96,6 @@ B.S. in Computer Science, GPA: 3.5/4.0
 
 ---
 
----
 
 ## Projects & Publications
 
@@ -163,7 +162,7 @@ B.S. in Computer Science, GPA: 3.5/4.0
 
 ---
 
-## References
+## Recommendation Letters can be provided on request:
 
 **Dr. M Abdullah Canbaz**  
 Assistant Professor, Department of Information Sciences and Technology  
