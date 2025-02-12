@@ -1,14 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
-    branches: [ main ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
+    branches: [main]
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -18,14 +14,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v3
-      - name: Install, build, and upload your site
-        uses: withastro/action@v1
-        # with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 18. (optional)
-          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+      - name: Checkout your repository
+        uses: actions/checkout@v4 # Use the latest version of checkout
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4 # Use the latest version of setup-node
+        with:
+          node-version: 20 # Or the version your project uses
+
+      - name: Install dependencies
+        run: npm install # Or pnpm install or yarn install, depending on your project
+
+      - name: Build
+        run: npm run build # Or pnpm run build or yarn run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3 # Use the latest version
+        with:
+          path: ./dist # Or the directory where your built site is
 
   deploy:
     needs: build
@@ -36,4 +42,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4 # Use the latest version
