@@ -44,7 +44,11 @@ Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Big Data
 
 **University at Albany, SUNY**, New York, United States  
 Ph.D. in Information Science (Data Analytics - Major, Cybersecurity - Minor)  
-08-2023 — Present  
+08-2023 — 05-2027  
+
+**University at Albany, SUNY**, New York, United States  
+M.S. in Information Science (Artificial Intelligence and Data Analytics)  
+08-2023 — 12-2025  
 
 **Istanbul Technical University**, Istanbul, Turkey  
 B.S. in Computer Science, GPA: 3.5/4.0  
@@ -60,7 +64,7 @@ B.S. in Computer Science, GPA: 3.5/4.0
 - Conducting research on scalable data analytics and AI-driven systems, including predictive models and NLP applications.  
 - Developing statistical analysis and machine learning techniques for large-scale datasets.  
 
-**AI in Complex Systems Lab**  
+**AI in Complex Systems Lab, University at Albany, SUNY**  
 **Research Intern**  
 05-2024 — 08-2024  
 - Focused on AI techniques for anomaly detection and predictive analytics, leading to research publications.  
