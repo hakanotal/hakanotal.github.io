@@ -15,7 +15,6 @@ layout: "../layouts/Layout.astro"
 University at Albany, SUNY  
 New York, United States  
 Email: hakan.otal@outlook.com  
-Phone: +1 (518) 608-9563  
 
 <div> 
 <a href="https://scholar.google.com/citations?user=aomsxFAAAAAJ" target="_blank" rel="noreferrer"><img src="/scholar.png" width="32" height="32" /></a>
@@ -48,38 +47,11 @@ Ph.D. in Information Science (Data Analytics - Major, Cybersecurity - Minor)
 
 **University at Albany, SUNY**, New York, United States  
 M.S. in Information Science (Artificial Intelligence and Data Analytics)  
-08-2023 — 12-2025  
+08-2023 — 05-2026  
 
 **Istanbul Technical University**, Istanbul, Turkey  
-B.S. in Computer Science, GPA: 3.5/4.0  
+B.S. in Computer Science
 09-2018 — 06-2023  
-
----
-
-## Experience
-
-**University at Albany, SUNY**, New York, United States  
-**Graduate Research Assistant**  
-08-2023 — Present  
-- Conducting research on scalable data analytics and AI-driven systems, including predictive models and NLP applications.  
-- Developing statistical analysis and machine learning techniques for large-scale datasets.  
-
-**AI in Complex Systems Lab, University at Albany, SUNY**  
-**Research Intern**  
-05-2024 — 08-2024  
-- Focused on AI techniques for anomaly detection and predictive analytics, leading to research publications.  
-
-**Parieta AI**  
-**Software Engineer**  
-01-2023 — 08-2023  
-- Developed AI-driven web applications and backend services using Nest.js and MongoDB.  
-- Created predictive analytics pipelines and deployed solutions on AWS and Docker.  
-
-**Deka Technology**  
-**Software Engineer**  
-07-2022 — 12-2022  
-- Developed API endpoints and integrated SAP services into backend applications.  
-- Managed microservices using Jenkins, Openshift, and Redis.  
 
 ---
 
