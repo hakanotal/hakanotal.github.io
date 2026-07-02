@@ -35,7 +35,7 @@ Email: hakan.otal@outlook.com
 
 ## Research Interests
 
-Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Big Data Analytics, Predictive Modeling, Natural Language Processing, Computer Vision, Graph Neural Networks, Data Visualization, Cybersecurity
+Artificial Intelligence, Data Science, Natural Language Processing, AI Safety, LLM Alignment, Knowledge Graphs, Cybersecurity
 
 ---
 
@@ -61,7 +61,7 @@ B.S. in Computer Science
 - **ML Frameworks**: PyTorch, TensorFlow, scikit-learn  
 - **Graph Tools**: Neo4j, Gephi, NetworkX, PyG  
 - **Data Visualization & Manipulation**: Matplotlib, Seaborn, NumPy, Pandas  
-- **Database Systems**: MongoDB, PostgreSQL, MySQL  
+- **Database Systems**: MongoDB, PostgreSQL, MySQL, Neo4j  
 - **Big Data & Cloud**: AWS, GCloud, Docker, Elasticsearch, Redis  
 - **LLM Technologies**: Huggingface, Ollama, LMStudio, Unsloth, Llama-Factory  
 
